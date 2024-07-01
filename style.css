@@ -3,6 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+        --black: #000000;
+        --white: #ffffff;
+        --red:   #ed1c24;
+        --green: #28a745;
+        --gray: #6c757d;
+        --gray-dark: #343a40;
+        --secondary: #6c757d;
+        --dark: #343a40;
+}
 html,body{
     font-size: 62.5%;
+}
+#navbar{
+    background-color: var(--black);
 }
