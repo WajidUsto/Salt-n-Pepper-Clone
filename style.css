@@ -15,7 +15,18 @@
 }
 html,body{
     font-size: 62.5%;
+    min-width: 1200px;
 }
 #navbar{
     background-color: var(--black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo img{
+    width: 18rem;
+}
+ul{
+    display: flex;
+    list-style: none;
 }
