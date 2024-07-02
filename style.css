@@ -18,7 +18,10 @@ html,body{
     font-family: 'Lato', sans-serif;
     background-color: var(--black);
     color: var(--white);
+    scroll-behavior: smooth;
 }
+/* Nav-bar Started */
+/* Nav-bar Started */
 #navbar{
     background-color: var(--black);
     display: flex;
@@ -96,8 +99,24 @@ ul{
 #hamburger{
     display: none;
 }
+/* Nav-bar Ended */
+/* Nav-bar Ended */
 
 
+/* Main-Section Started */
+/* Main-Section Started */
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: #343a40;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--red);
+    border-radius: 10px;
+}
+#delivery-img img{
+    width: 100%;
+}
 
 
 
