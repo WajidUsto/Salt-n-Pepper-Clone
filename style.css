@@ -126,27 +126,83 @@ ul{
     font-family: 'Black Ops One', system-ui;
 }
 .welcome-text{
-    font-size: 3.5rem;
+    font-size: 4rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    display: block;
+    line-height: 5rem;
 }
-.welcome-text p{
-    font-size: 16px;
-    font-weight: 300;
+#welcome-section-inside p{
+    padding-top: 10px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #B3B3B3;
 }
 #welcome-section-outside{
-    padding-top: 5%;
     display: flex;
     flex-direction: column;
     gap: 3.5rem;
-    padding-bottom: 10%;
     text-align: center;
+    padding: 5% 3% 10% 3%;
 }
-
-
-
-
-
-
-
+.product-brand{
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#order-img{
+    background-color: var(--white);
+    border-radius: 5px;
+    width: 29rem;
+    height: 13rem;
+    padding: 11px 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 43px;
+    align-items: center;
+}
+.product-brand-btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 37px;
+    text-align: center;
+    padding: 12px 28px 13px 30px;
+}
+.product-brand-btn a:hover{
+    background-color: var(--red);
+}
+#first-frenchise-main-outside{
+    background-color: rgb(255 255 255 / 5%);
+    padding-top: 5%;
+    padding-bottom: 5%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+#first-frenchise-main-outside img{
+    position: absolute;
+    width: 21%;
+    right: 27px;
+    top: 29px;
+}
+.logo-text-2{
+    font-size: 5.2rem;
+    letter-spacing: 1px;
+    line-height: 6.2rem;
+    color: var(--white);
+    font-family: 'Black Ops One', system-ui;
+}
+#first-frenchise-1 span{
+    font-size: 30px;
+}
+.first-frenchise-1-para{
+    font-size: 13px;
+}
 
 /* media Queries */
 /* media Queries */
@@ -161,6 +217,11 @@ ul{
         padding: 0 20px 0 20px;
     }
 }
+@media (max-width: 982px) {
+    .order-img-3{
+        margin-top: 7rem;
+    }
+}
 @media (max-width: 952px) {
     .nav-bar-items a{
         font-size: 12px;
@@ -169,16 +230,24 @@ ul{
     #btn2-arrow{
         font-size: 14px;
     }
+    
+    .welcome-text{
+        font-size: 3.2rem;
+    }
+    .logo-text{
+        font-size: 45px;
+        display: block;
+    }
 }
 @media (max-width: 880px) {
     .nav-bar-items a{
         font-size: 11px;
         font-weight: 700;
-        
     }
     .nav-logo img{
         width: 18rem;
     }
+    .logo-text
 }
 @media (max-width: 850px) {
     .nav-bar-items .nav-links{
@@ -193,9 +262,18 @@ ul{
         padding: 18px 14px 17px;
     }
 }
-@media (max-width: 620px) {
+@media (max-width: 650px) {
     .get-a-frenchise-btn2{
         display: none;
+    }
+    .order-img-1{
+        margin-bottom: 60px;
+    }
+    .logo-text{
+        font-size: 40px;
+    }
+    .welcome-text{
+        font-size: 3.2rem;
     }
 }
 @media (max-width: 405px) {
@@ -203,5 +281,11 @@ ul{
         display: block;
         font-size: 18px;
         padding: 12px 9px 13px 8px;
+    }
+    .logo-text{
+        font-size: 35px;
+    }
+    .welcome-text{
+        font-size: 3rem;
     }
 }
