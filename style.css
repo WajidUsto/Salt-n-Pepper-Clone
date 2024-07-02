@@ -43,7 +43,7 @@ ul{
     list-style: none;
     align-items: center;
 }
-li{
+.nav-bar-items li{
     text-decoration: none;
     color: var(--white);
     font-size: 16.5px;
