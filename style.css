@@ -42,8 +42,6 @@ ul{
     gap: 30px;
     list-style: none;
     align-items: center;
-    /* justify-content: center; */
-    /* margin-left: 5rem; */
 }
 li{
     text-decoration: none;
@@ -54,6 +52,7 @@ li{
 }
 .nav-btn{
     padding: 10px;
+    display: flex;
 }
 .get-a-frenchise-btn1{
     padding: 1.7rem 2rem 1.7rem 2.4rem;
@@ -62,7 +61,7 @@ li{
     color: var(--white);
     border: 1px solid white;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 17px;
 }
 .get-a-frenchise-btn2{
     padding: 1.7rem 2rem 1.7rem 2.4rem;
@@ -74,6 +73,10 @@ li{
     font-size: 17px;
     margin: 0 0 0 20px;
 }
+.get-a-frenchise-btn2:hover{
+    background-color: var(--black);
+    border: 1px solid white;
+}
 .get-a-frenchise-btn1 a{
     list-style: none;
     text-decoration: none;
@@ -83,8 +86,16 @@ li{
     background-color: var(--red);
     color: var(--white);
 }
-
-
+#btn2-arrow{
+    font-size: 16px;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 2px 5px;
+    margin-left: 6px;
+}
+#hamburger{
+    display: none;
+}
 
 
 
@@ -114,6 +125,9 @@ li{
         font-size: 12px;
         font-weight: 700;
     }
+    #btn2-arrow{
+        font-size: 14px;
+    }
 }
 @media (max-width: 880px) {
     .nav-bar-items a{
@@ -131,5 +145,22 @@ li{
     }
     .get-a-frenchise-btn1{
         display: none;
+    }
+    #hamburger{
+        display: block;
+        font-size: 20px;
+        padding: 18px 14px 17px;
+    }
+}
+@media (max-width: 620px) {
+    .get-a-frenchise-btn2{
+        display: none;
+    }
+}
+@media (max-width: 405px) {
+    #hamburger{
+        display: block;
+        font-size: 18px;
+        padding: 12px 9px 13px 8px;
     }
 }
