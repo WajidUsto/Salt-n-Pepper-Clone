@@ -15,18 +15,121 @@
 }
 html,body{
     font-size: 62.5%;
-    min-width: 1200px;
+    font-family: 'Lato', sans-serif;
+    background-color: var(--black);
+    color: var(--white);
 }
 #navbar{
     background-color: var(--black);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    padding: 1.5rem 3rem 1.5rem;
+
+}
+.nav-bar-items a{
+    color: var(--white);
+    text-decoration: none;
+}
+.nav-links:hover{
+    color: var(--red);
 }
 .nav-logo img{
-    width: 18rem;
+    width: 16rem;
 }
 ul{
     display: flex;
+    gap: 30px;
     list-style: none;
+    align-items: center;
+    /* justify-content: center; */
+    /* margin-left: 5rem; */
+}
+li{
+    text-decoration: none;
+    color: var(--white);
+    font-size: 16.5px;
+    font-weight: 700;
+    
+}
+.nav-btn{
+    padding: 10px;
+}
+.get-a-frenchise-btn1{
+    padding: 1.7rem 2rem 1.7rem 2.4rem;
+    border-radius: 30px;
+    background-color: var(--black);
+    color: var(--white);
+    border: 1px solid white;
+    font-weight: 700;
+    font-size: 16px;
+}
+.get-a-frenchise-btn2{
+    padding: 1.7rem 2rem 1.7rem 2.4rem;
+    border-radius: 30px;
+    background-color: var(--red);
+    color: var(--white);
+    border: none;
+    font-weight: 700;
+    font-size: 17px;
+    margin: 0 0 0 20px;
+}
+.get-a-frenchise-btn1 a{
+    list-style: none;
+    text-decoration: none;
+    color: var(--white);
+}
+.get-a-frenchise-btn1:hover{
+    background-color: var(--red);
+    color: var(--white);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media Queries */
+/* media Queries */
+
+
+@media (max-width: 1070px) {
+    .nav-bar-items a{
+        font-size: 14px;
+    }
+    .nav-logo img{
+        width: 19rem;
+        padding: 0 20px 0 20px;
+    }
+}
+@media (max-width: 952px) {
+    .nav-bar-items a{
+        font-size: 12px;
+        font-weight: 700;
+    }
+}
+@media (max-width: 880px) {
+    .nav-bar-items a{
+        font-size: 11px;
+        font-weight: 700;
+        
+    }
+    .nav-logo img{
+        width: 18rem;
+    }
+}
+@media (max-width: 850px) {
+    .nav-bar-items .nav-links{
+        display: none;
+    }
+    .get-a-frenchise-btn1{
+        display: none;
+    }
 }
