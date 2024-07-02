@@ -176,33 +176,121 @@ ul{
     background-color: var(--red);
 }
 #first-frenchise-main-outside{
-    background-color: rgb(255 255 255 / 5%);
-    padding-top: 5%;
-    padding-bottom: 5%;
+    background-color: rgb(255 255 255 / 4%);
+    padding-top: 3%;
+    padding-bottom: 30%;
     position: relative;
     display: flex;
     flex-direction: column;
-    gap: 5rem;
 }
-#first-frenchise-main-outside img{
+#first-frenchise-main-outside .first-frenchise-main-img1{
     position: absolute;
-    width: 21%;
+    width: 23%;
     right: 27px;
     top: 29px;
 }
 .logo-text-2{
-    font-size: 5.2rem;
+    font-size: 4.5rem;
     letter-spacing: 1px;
-    line-height: 6.2rem;
     color: var(--white);
     font-family: 'Black Ops One', system-ui;
 }
-#first-frenchise-1 span{
-    font-size: 30px;
+#first-frenchise-text{
+    text-align: center;
+    padding-bottom: 10px;
 }
-.first-frenchise-1-para{
+#first-frenchise-text span{
+    font-size: 42px;
+}
+.first-frenchise-text-para{
+    font-size: 16px;
+    color: #B7B7B7;
+}
+#first-frenchise-sider{
+    display: flex;
+    justify-content: space-between;
+    gap: 6.5rem;
+}
+.first-frenchise-main{
+    gap: 4.5rem;
+    flex-direction: column;
+    display: flex;
+    /* margin: 0 auto; */
+    text-align: center;
+}
+.first-frenchise-main-text{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    margin-left: 15rem;
+}
+.first-frenchise-sider-img{
+    margin-right: 13rem;
+    z-index: 50;
+}
+.first-frenchise-sider-img img{
+    width: 85%;
+    border-radius: 8px;
+}
+#first-frenchise-sider .logo-text-2{
+    font-size: 3.8rem;
+}
+#first-frenchise-sider .header{
+    font-size: 15px;
+    color: var(--red);
+    letter-spacing: 6.5px;
+}
+#first-frenchise-sider-text-2{
+    font-family: 'Lato', sans-serif;
+}
+.first-frenchise-sider-text-3{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
     font-size: 13px;
+    line-height: 2.5rem;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.7);
 }
+.first-frenchise-sider-text-4{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 2.5rem;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 27px;
+
+}
+.first-frenchise-sider-btn{
+    font-size: 14px;
+    padding: 15px 30px 15px 30px;
+    border: 1px solid var(--white);
+    border-radius: 35px;
+}
+.first-frenchise-sider-btn{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 37px;
+    text-align: center;
+    padding: 12px 28px 13px 30px;
+}
+.first-frenchise-sider-btn:hover{
+    background-color: var(--red);
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* media Queries */
 /* media Queries */
