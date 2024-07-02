@@ -19,6 +19,7 @@ html,body{
     background-color: var(--black);
     color: var(--white);
     scroll-behavior: smooth;
+    line-height: 1.4;
 }
 /* Nav-bar Started */
 /* Nav-bar Started */
@@ -117,7 +118,28 @@ ul{
 #delivery-img img{
     width: 100%;
 }
-
+.logo-text{
+    font-size: 5.2rem;
+    letter-spacing: 1px;
+    line-height: 6.2rem;
+    color: var(--red);
+    font-family: 'Black Ops One', system-ui;
+}
+.welcome-text{
+    font-size: 3.5rem;
+}
+.welcome-text p{
+    font-size: 16px;
+    font-weight: 300;
+}
+#welcome-section-outside{
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+    padding-bottom: 10%;
+    text-align: center;
+}
 
 
 
