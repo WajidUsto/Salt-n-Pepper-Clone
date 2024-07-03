@@ -409,7 +409,13 @@ ul{
     #first-frenchise-main-outside{
         margin-top: 8rem;
     }
-    
+    #first-frenchise-text .logo-text-2{
+        font-size: 3.5rem;
+        margin: 10px 20px;
+    }
+    #first-frenchise-text span , p{
+        font-size: 3.5rem;
+    }
 }
 @media (max-width: 650px) {
     .get-a-frenchise-btn2{
@@ -425,6 +431,11 @@ ul{
         font-size: 3.2rem;
     }
 }
+@media (max-width: 450px) {
+    .first-frenchise-main-container img{
+        width: 33rem;
+    }
+}
 @media (max-width: 405px) {
     #hamburger{
         display: block;
@@ -436,5 +447,12 @@ ul{
     }
     .welcome-text{
         font-size: 3rem;
+    }
+    #first-frenchise-text .logo-text-2{
+        font-size: 3rem;
+        margin: 10px 20px;
+    }
+    #first-frenchise-text span , p{
+        font-size: 2.5rem;
     }
 }
