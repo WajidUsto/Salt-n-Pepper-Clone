@@ -55,7 +55,7 @@ ul{
     
 }
 .nav-btn{
-    padding: 10px;
+    /* padding: 10px; */
     display: flex;
 }
 .get-a-frenchise-btn1{
@@ -178,7 +178,7 @@ ul{
 #first-frenchise-main-outside{
     background-color: rgb(255 255 255 / 4%);
     padding-top: 3%;
-    padding-bottom: 30%;
+    padding-bottom: 8%;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -340,10 +340,88 @@ ul{
     height: auto;
 }
 
+/* Second frenchise Started */
+/* Second frenchise Started */
 
-
-
-
+#second-frenchise-main-outside{
+    background-color: #000000;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+#second-frenchise-main-outside .img1{
+    width: 33rem;
+    position: absolute;
+    left: 30px;
+}
+#second-frenchise-main-outside .img2{
+    width: 40rem;
+    position: absolute;
+    right: 0;
+    top: 56rem;
+}
+.second-frenchise-main-text{
+    text-align: center;
+}
+.second-frenchise-main-text .text-1{
+    font-family: 'Black Ops One', system-ui;
+    font-size: 4.5rem;
+}
+.second-frenchise-main-text .text-2{
+    font-size: 4.5rem;
+    padding-bottom: 20px;
+}
+.second-frenchise-card img{
+    width: 50%;
+    padding-bottom: 14px;
+    z-index: 51;
+}
+.text-card-head{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 2rem;
+    letter-spacing: 0.48em;
+    color: var(--red);
+    display: block;
+}
+.text-card-head-text{
+    font-size: 2.5rem;
+    line-height: 3.8rem;
+    font-weight: 400;
+    display: block;
+}
+.text-card-p1{
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    display: block;
+    color: rgba(255, 255, 255, 0.7);
+}
+.text-card-p2{
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    display: block;
+    color: rgba(255, 255, 255, 0.7);
+}
+.second-frenchise-card div{
+    margin-top: 20px;
+}
+.second-frenchise-main-cards{
+    display: flex;
+}
+.second-frenchise-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.second-frenchise-card img{
+    display: flex;
+    width: 65%;
+    padding-bottom: 14px;
+    z-index: 51;
+}
 
 /* media Queries */
 /* media Queries */
@@ -450,6 +528,14 @@ ul{
         font-size: 3.2rem;
     }
 }
+@media (max-width: 530px) {
+    .first-frenchise-main-container img{
+        width: 36rem;
+    }
+    .first-frenchise-main-container-3 img{
+        width: 36rem;
+    }
+}
 @media (max-width: 450px) {
     .first-frenchise-main-container img{
         width: 37rem;
@@ -457,12 +543,15 @@ ul{
     .first-frenchise-main-container-3 img{
         width: 37rem;
     }
+    #navbar{
+        padding: 5px 0 5px 0;
+    }
 }
 @media (max-width: 405px) {
     #hamburger{
         display: block;
-        font-size: 18px;
-        padding: 12px 9px 13px 8px;
+        font-size: 16px;
+        /* padding: 12px 9px 13px 8px; */
     }
     .logo-text{
         font-size: 35px;
@@ -475,6 +564,33 @@ ul{
         margin: 10px 20px;
     }
     #first-frenchise-text span , p{
+        font-size: 2.5rem;
+    }
+    .first-frenchise-main-container img{
+        width: 35rem;
+    }
+    .first-frenchise-main-container-3 img{
+        width: 35rem;
+    }
+    #welcome-section-inside{
+        line-height: 25px;
+    }
+}
+@media (max-width: 390px) {
+    #first-frenchise-text .logo-text-2{
+        font-size: 3rem;
+        margin: 5px 10px;
+    }
+    #first-frenchise-text span , p{
+        font-size: 2rem;
+    }
+    .first-frenchise-main-container img{
+        width: 30rem;
+    }
+    .first-frenchise-main-container-3 img{
+        width: 30rem;
+    }
+    .first-franchise-main-side-text-two{
         font-size: 2.5rem;
     }
 }
