@@ -336,6 +336,7 @@ ul{
     background-color: red;
 }
 .first-frenchise-main-container img{
+    border-radius: 10px;
     width: 50%;
     height: auto;
 }
@@ -353,15 +354,16 @@ ul{
     gap: 4rem;
 }
 #second-frenchise-main-outside .img1{
-    width: 33rem;
+    width: 45rem;
     position: absolute;
     left: 30px;
 }
 #second-frenchise-main-outside .img2{
-    width: 40rem;
+    width: 38rem;
     position: absolute;
-    right: 0;
-    top: 56rem;
+    right: 0px;
+    bottom: 0rem;
+    z-index: 2;
 }
 .second-frenchise-main-text{
     text-align: center;
@@ -412,11 +414,12 @@ ul{
 .grid{
         display: grid;
         gap: 20px;
-        margin: 0 30px;
+        margin: 0 60px;
         grid-template-areas: 
         "I1 I2 I3" 
         "I4 I5 I6"
         "I7 I8 I9";
+
 }
 .img{
     width: 30rem;
@@ -424,6 +427,8 @@ ul{
 }
 .grid div{
     margin-top: 30px;
+    z-index: 5;
+
 }
 .second-frenchise-card img{
     padding-bottom: 14px;
@@ -445,18 +450,14 @@ ul{
 @media (max-width: 990px) {
     .grid{
         grid-template-areas: 
-        "I1"
-        "I2" 
-        "I3" 
-        "I4" 
-        "I5"
-        "I6"
-        "I7" 
-        "I8" 
+        "I1 I2"
+        "I3 I4" 
+        "I5 I6" 
+        "I7 I8" 
         "I9";
     }
-    .grid img{
-        width: 50%;
+    .img{
+        width: 20rem;
     }
 }
 @media (max-width: 982px) {
@@ -480,6 +481,9 @@ ul{
         font-size: 45px;
         display: block;
     }
+    #second-frenchise-main-outside .img1{
+        width: 30rem;
+    }
 }
 @media (max-width: 914px) {
     .first-frenchise-main-container{
@@ -492,6 +496,7 @@ ul{
     }
     .first-frenchise-main-container-3 img{
         width: 50rem;
+        border-radius: 18px;
     }
     .first-franchise-main-side{
         text-align: center;
@@ -503,8 +508,34 @@ ul{
     .first-frenchise-main-container img{
         width: 50rem;
     }
+    #second-frenchise-main-outside .img1{
+        width: 30rem;
+    }
 }
 @media (max-width: 880px) {
+    .grid{
+        grid-template-areas: 
+        "I1"
+        "I2"
+        "I3"
+        "I4" 
+        "I5 "
+        "I6" 
+        "I7"
+        "I8" 
+        "I9";
+        margin: 0 auto;
+    }
+    .img{
+        width: 34rem;
+        border-radius: 9px;
+    }
+    #second-frenchise-main-outside .img2{
+        width: 33rem;
+    }
+    #second-frenchise-main-outside .img1{
+        width: 30rem;
+    }
     .nav-bar-items a{
         font-size: 11px;
         font-weight: 700;
@@ -521,6 +552,9 @@ ul{
     .get-a-frenchise-btn1{
         display: none;
     }
+    #second-frenchise-main-outside .img1{
+        width: 30rem;
+    }
     #hamburger{
         display: block;
         font-size: 20px;
@@ -529,6 +563,9 @@ ul{
     #first-frenchise-main-outside{
         margin-top: 8rem;
     }
+    #second-frenchise-main-outside .img1{
+        width: 50rem;
+    }
     #first-frenchise-text .logo-text-2{
         font-size: 3.5rem;
         margin: 10px 20px;
@@ -536,10 +573,16 @@ ul{
     #first-frenchise-text span , p{
         font-size: 3.5rem;
     }
+    #second-frenchise-main-outside .img2{
+        width: 28rem;
+    }
 }
 @media (max-width: 650px) {
     .get-a-frenchise-btn2{
         display: none;
+    }
+    .second-frenchise-main-outside .img1{
+        width: 80rem;
     }
     .order-img-1{
         margin-bottom: 60px;
@@ -550,6 +593,21 @@ ul{
     .welcome-text{
         font-size: 3.2rem;
     }
+    .second-frenchise-main-text .text-1{
+        font-size: 3.5rem;
+    }
+    .second-frenchise-main-text .text-2{
+        font-size: 3.5rem;
+    }
+    #second-frenchise-main-outside .img1{
+        width: 29rem;
+    }
+    #second-frenchise-main-outside .img2{
+        width: 26rem;
+    }
+    #second-frenchise-main-outside .img1{
+        width: 25rem;
+    }
 }
 @media (max-width: 530px) {
     .first-frenchise-main-container img{
@@ -558,6 +616,7 @@ ul{
     .first-frenchise-main-container-3 img{
         width: 36rem;
     }
+
 }
 @media (max-width: 450px) {
     .first-frenchise-main-container img{
@@ -569,6 +628,12 @@ ul{
     #navbar{
         padding: 5px 0 5px 0;
     }
+    .second-frenchise-main-text .text-1 {
+        font-size: 2.5rem;
+    }
+    .second-frenchise-main-text .text-2 {
+        font-size: 2.5rem;
+    }
 }
 @media (max-width: 405px) {
     #hamburger{
@@ -579,8 +644,25 @@ ul{
     .logo-text{
         font-size: 35px;
     }
+    #second-frenchise-main-outside .img1 {
+        width: 20rem;
+    }
+    .second-frenchise-main-text .text-1 {
+        font-size: 2.5rem;
+    }
+    .second-frenchise-main-text .text-2 {
+        font-size: 2.5rem;
+    }
+    #delivery-img img{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .first-franchise-main-side-text-one{
+        letter-spacing: 0.30;
+    }
     .welcome-text{
         font-size: 3rem;
+        margin-top: -40px;
     }
     #first-frenchise-text .logo-text-2{
         font-size: 3rem;
@@ -615,5 +697,8 @@ ul{
     }
     .first-franchise-main-side-text-two{
         font-size: 2.5rem;
+    }
+    .img{
+        width: 25rem;
     }
 }
