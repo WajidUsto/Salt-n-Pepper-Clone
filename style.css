@@ -254,8 +254,9 @@ ul{
 .first-frenchise-main-container{
     display: flex;
     justify-content: space-between;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     gap: 4.5rem;
+    margin: 0px 15px;
 }
 .first-franchise-main-side{
     text-align: left;
@@ -263,6 +264,9 @@ ul{
     flex-direction: column;
     align-items: flex-start;
     gap: 6rem;
+}
+.first-frenchise-main-container img{
+    z-index: 50;
 }
 .first-franchise-main-side-text-one{
     font-weight: 500;
@@ -319,7 +323,10 @@ ul{
 .first-franchise-first-button-notextdeco:hover{
     background-color: red;
 }
-
+.first-frenchise-main-container img{
+    width: 50%;
+    height: auto;
+}
 
 
 
@@ -361,6 +368,22 @@ ul{
         display: block;
     }
 }
+@media (max-width: 914px) {
+    .first-frenchise-main-container{
+        justify-content: center;
+        text-align: center;
+    }
+    .first-franchise-main-side{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .first-franchise-main-side div{
+        margin: 0 auto;
+    }
+    .first-frenchise-main-container img{
+        width: 40rem;
+    }
+}
 @media (max-width: 880px) {
     .nav-bar-items a{
         font-size: 11px;
@@ -383,6 +406,10 @@ ul{
         font-size: 20px;
         padding: 18px 14px 17px;
     }
+    #first-frenchise-main-outside{
+        margin-top: 8rem;
+    }
+    
 }
 @media (max-width: 650px) {
     .get-a-frenchise-btn2{
