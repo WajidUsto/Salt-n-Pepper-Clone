@@ -509,6 +509,94 @@ ul{
 .promotion-container img{
     border-radius: 10px;
 }
+/* snp-cards-container */
+/* snp-cards-container */
+.snp-cards-container{
+    background-color: var(--black);
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+.snp-cards-container-text{
+    text-align: center;
+}
+.snp-cards-container-text1{
+    font-size: 4rem;
+}
+.snp-cards-container-text2{
+    font-family: 'Black Ops One', system-ui;
+    font-size: 5rem;
+    letter-spacing: 0px;
+    line-height: 1;
+}
+.snp-cards-container-text3{
+    display: block;
+    font-size: 4.5rem;
+    font-family: ui-monospace;
+
+}
+.snp-cards-container-text4{
+    font-size: 23px;
+    margin-left: 5px;
+
+}
+.grid2{
+    display: grid;
+
+}
+.grid2-item1{
+    height: 250px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    text-align: center;
+    padding: 20px 6px;
+    margin: auto;
+    max-width: 30rem;
+    margin-bottom: 32px;
+}
+.grid2-item1-text1{
+    color: var(--red);
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.grid2-item1-text2{
+    font-size: 30px;
+    font-family: ui-monospace;
+    color: #000000;
+}
+.grid2-item1-text3{
+    color: #000000;
+    font-size: 20px;
+}
+.grid2-item1-card{
+    margin: 0 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* media Queries */
 /* media Queries */
