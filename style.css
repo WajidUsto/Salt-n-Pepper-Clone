@@ -532,6 +532,7 @@ ul{
     display: block;
     font-size: 4.5rem;
     font-family: ui-monospace;
+    margin-bottom: 6rem;
 
 }
 .snp-cards-container-text4{
@@ -541,16 +542,21 @@ ul{
 }
 .grid2{
     display: grid;
-
+        gap: 20px;
+        margin: 0 60px;
+        grid-template-areas: 
+        "I1 I2 I3" 
+        "I4 I5 I6"
+        "I7 I8 I9";
 }
 .grid2-item1{
-    height: 250px;
+    height: 243px;
     background: #FFFFFF;
     border-radius: 4px;
     text-align: center;
     padding: 20px 6px;
     margin: auto;
-    max-width: 30rem;
+    width: 36rem;
     margin-bottom: 32px;
 }
 .grid2-item1-text1{
@@ -569,7 +575,190 @@ ul{
     font-size: 20px;
 }
 .grid2-item1-card{
-    margin: 0 50px;
+    margin: 16px;
+}
+.social-feed-h3{
+    font-size: 35px;
+    margin-bottom: 50px;
+    text-align: center;
+    
+}
+.social-feed-img img{
+    width: 23rem;
+    margin: 0 7px;
+    margin-bottom: 20rem;
+}
+.social-feed-img{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+/* main Section Ended */
+/* main Section Ended */
+
+/* Footer Started */
+/* Footer Started */
+footer{
+    background-color: #0F0F0F;
+    width: 100%;
+    position: relative;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding: 4% 0 3% 0;
+}
+#large-s-black{
+    height: 32rem;
+    position: absolute;
+    bottom: 3rem;
+    left: 1rem;
+}
+#logo-footer{
+    width: fit-content;
+    height: 7.5rem;
+}
+#para-footer{
+    font-family: 'Lato' , sans-serif ;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: rgba(255, 255, 255, 0.5);
+    letter-spacing: 0.03em;
+}
+#logo-side{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.pr-5{
+    padding-right: 10px;
+}
+.site-links-top{
+    font-family: 'Lato' , sans-serif ;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: rgb(255, 255, 255);
+}
+.site-links-top:hover{
+    color: var(--red);
+    cursor: pointer;;
+}
+.site-links{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.site-links-2{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.noliststyle{
+    list-style-type: none;
+}
+.d-flex-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.footerlinks1{
+    font-family: 'Lato' , sans-serif ;
+    font-style: normal;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: rgba(255, 255, 255,0.6);
+    align-items: flex-start;
+}
+.footerlinks1:hover{
+    color: var(--white);
+    cursor: pointer;
+}
+.footer-social-media-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4.1rem;
+    height: 4.1rem;
+    background: #ED1C24;
+    color: #fff;
+    border-radius: 5.1rem;
+}
+.footer-social-media{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-social-media-links-i{
+    color: #ffffff;
+    font-size: 1.7rem;
+}
+.fab{
+    font-family: Font Awesome\ 5 Brands;
+    }
+.block{
+    display: block;
+}
+.follow-us{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-images{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.copyright-section{
+    display: flex;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 0.6);
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.copyright-section-left-text-one{
+    font-family: 'Lato' , sans-serif ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+}
+.copyright-section-left-text-two{
+    font-family: 'Lato' , sans-serif ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+}
+.copyright-section {
+    display: flex;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 0.6);
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+#large-s-black {
+    height: 33rem;
+    position: absolute;
+    bottom: 0rem;
+    left: 1rem;
 }
 
 
@@ -596,10 +785,59 @@ ul{
 
 
 
+/* footer{
+    display: flex;
+    /* justify-content: space-between; */
+    /* width: 100%; */
+    /* margin: 0 auto;
+    flex-wrap: wrap;
+    padding: 4% 0 3% 0;
+    background-color: #0F0F0F;
+    height: 50rem;
+} */
+
+/* .s-img{
+    position: absolute;
+    left: 10px;
+}
+.footer-section-1 img{
+    width: 20rem;
+}
+.footer-section-1 p{
+    display: flex;
+    flex-direction: column;
+} */ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* media Queries */
 /* media Queries */
+@media (max-width: 1212px) {
+    .grid2{
+        grid-template-areas:
+        "I1 I2"
+        "I3 I4"
+        "I5 I6";
+    }
+}
 @media (max-width: 1095px) {
     .promotion-container .item8{
         align-items: center;
@@ -634,6 +872,9 @@ ul{
     }
     .img{
         width: 20rem;
+    }
+    .social-feed-img img{
+        width: 26rem;
     }
 }
 @media (max-width: 982px) {
@@ -687,6 +928,9 @@ ul{
     #second-frenchise-main-outside .img1{
         width: 30rem;
     }
+    .social-feed-img img{
+        width: 28rem;
+    }
 }
 @media (max-width: 880px) {
     .grid{
@@ -702,17 +946,36 @@ ul{
         "I9";
         margin: 0 auto;
     }
-    .promotion-container img{
-        /* width: 30rem; */
+    .grid2{
+        grid-template-areas:
+        "I1"
+        "I2"
+        "I3"
+        "I4"
+        "I5"
+        "I6";
+        margin: 0 auto;
+    }
+    .grid2-item1{
+        width: 30rem;
+    }
+    .snp-cards-container-text2{
+        font-size: 4.5rem;
+    }
+    .snp-cards-container-text1{
+        font-size: 3.5rem;
     }
     .img{
         width: 34rem;
         border-radius: 9px;
     }
+    .social-feed-img img{
+        width: 29rem;
+    }
     #second-frenchise-main-outside .img2{
         width: 33rem;
     }
-    #second-frenchise-main-outside .img1{
+    #second-frenchise-main-outside .img3{
         width: 30rem;
     }
     .nav-bar-items a{
@@ -765,6 +1028,15 @@ ul{
     .order-img-1{
         margin-bottom: 60px;
     }
+    .snp-cards-container-text2{
+        font-size: 3.5rem;
+    }
+    .snp-cards-container-text3{
+        font-size: 3.5rem;
+    }
+    .social-feed-img img{
+        width: 35rem;
+    }
     .logo-text{
         font-size: 40px;
     }
@@ -800,6 +1072,15 @@ ul{
     .promotion-container img{
         width: 38rem;
     }
+    .snp-cards-container-text2{
+        font-size: 3.3rem;
+    }
+    .snp-cards-container-text3{
+        font-size: 3.3rem;
+    }
+    .social-feed-img img{
+        width: 30rem;
+    }
 }
 @media (max-width: 450px) {
     .first-frenchise-main-container img{
@@ -810,6 +1091,9 @@ ul{
     }
     #navbar{
         padding: 5px 0 5px 0;
+    }
+    .social-feed-img img{
+        width: 27rem;
     }
     .second-frenchise-main-text .text-1 {
         font-size: 2.5rem;
@@ -822,6 +1106,15 @@ ul{
     }
     .div-1{
         margin: 0 10px;
+    }
+    .snp-cards-container-text2{
+        font-size: 3rem;
+    }
+    .snp-cards-container-text3{
+        font-size: 3rem;
+    }
+    .promotion-container-text1{
+        font-size: 3rem;
     }
 }
 @media (max-width: 405px) {
@@ -871,6 +1164,9 @@ ul{
     }
     .promotion-container img{
         width: 34rem;
+    }
+    .social-feed-img img{
+        width: 25rem;
     }
 }
 @media (max-width: 390px) {
