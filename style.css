@@ -448,6 +448,8 @@ ul{
 }
 .promotion-container{
     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 .div-1{
     text-align: left;
@@ -499,10 +501,26 @@ ul{
     transform: scale(1.05);
     transition: 0.5s ease-in-out;
 }
+.promotion-container img{
+    border-radius: 10px;
+}
 
 /* media Queries */
 /* media Queries */
-
+@media (max-width: 1095px) {
+    .promotion-container .item8{
+        align-items: center;
+    }
+    .div-1{
+        text-align: center;
+    }
+    .promotion-container img{
+        width: 50rem;
+    }
+    .snp-vilage-container{
+        margin-top: 5rem;
+    }
+}
 @media (max-width: 1070px) {
     .nav-bar-items a{
         font-size: 14px;
@@ -511,7 +529,6 @@ ul{
         width: 19rem;
         padding: 0 20px 0 20px;
     }
-
 }
 @media (max-width: 990px) {
     .grid{
@@ -592,6 +609,9 @@ ul{
         "I9";
         margin: 0 auto;
     }
+    .promotion-container img{
+        /* width: 30rem; */
+    }
     .img{
         width: 34rem;
         border-radius: 9px;
@@ -609,7 +629,6 @@ ul{
     .nav-logo img{
         width: 18rem;
     }
-    .logo-text
 }
 @media (max-width: 850px) {
     .nav-bar-items .nav-links{
@@ -674,6 +693,9 @@ ul{
     #second-frenchise-main-outside .img1{
         width: 25rem;
     }
+    .promotion-container img{
+        width: 40rem;
+    }
 }
 @media (max-width: 530px) {
     .first-frenchise-main-container img{
@@ -682,7 +704,9 @@ ul{
     .first-frenchise-main-container-3 img{
         width: 36rem;
     }
-
+    .promotion-container img{
+        width: 38rem;
+    }
 }
 @media (max-width: 450px) {
     .first-frenchise-main-container img{
@@ -699,6 +723,12 @@ ul{
     }
     .second-frenchise-main-text .text-2 {
         font-size: 2.5rem;
+    }
+    .promotion-container img{
+        width: 35rem;
+    }
+    .div-1{
+        margin: 0 10px;
     }
 }
 @media (max-width: 405px) {
@@ -746,6 +776,9 @@ ul{
     #welcome-section-inside{
         line-height: 25px;
     }
+    .promotion-container img{
+        width: 34rem;
+    }
 }
 @media (max-width: 390px) {
     #first-frenchise-text .logo-text-2{
@@ -766,5 +799,8 @@ ul{
     }
     .img{
         width: 25rem;
+    }
+    .promotion-container img{
+        width: 32rem;
     }
 }
