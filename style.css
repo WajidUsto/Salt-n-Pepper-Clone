@@ -177,6 +177,7 @@ ul{
 }
 .product-brand-btn a:hover{
     background-color: var(--red);
+    transition: 0.5s ease-in-out;
 }
 #first-frenchise-main-outside{
     background-color: rgb(255 255 255 / 4%);
@@ -337,6 +338,7 @@ ul{
 }
 .first-franchise-first-button-notextdeco:hover{
     background-color: red;
+    transition: 0.5s ease-in-out;
 }
 .first-frenchise-main-container img{
     border-radius: 10px;
