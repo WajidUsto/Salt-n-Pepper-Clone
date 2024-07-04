@@ -678,6 +678,7 @@ footer{
     line-height: 1.9rem;
     color: rgba(255, 255, 255,0.6);
     align-items: flex-start;
+    text-decoration: none;
 }
 .footerlinks1:hover{
     color: var(--white);
@@ -764,80 +765,18 @@ footer{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* footer{
-    display: flex;
-    /* justify-content: space-between; */
-    /* width: 100%; */
-    /* margin: 0 auto;
-    flex-wrap: wrap;
-    padding: 4% 0 3% 0;
-    background-color: #0F0F0F;
-    height: 50rem;
-} */
-
-/* .s-img{
-    position: absolute;
-    left: 10px;
-}
-.footer-section-1 img{
-    width: 20rem;
-}
-.footer-section-1 p{
-    display: flex;
-    flex-direction: column;
-} */ */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* media Queries */
 /* media Queries */
+
 @media (max-width: 1212px) {
     .grid2{
         grid-template-areas:
         "I1 I2"
         "I3 I4"
-        "I5 I6";
+        "I5 I6"
     }
 }
+
 @media (max-width: 1095px) {
     .promotion-container .item8{
         align-items: center;
