@@ -790,6 +790,18 @@ footer{
     .snp-vilage-container{
         margin-top: 5rem;
     }
+    .footer-social-media {
+        justify-content: center;
+        gap: 10px;
+    }
+    .footer-images {
+        align-items: center;
+    }
+    .footer{
+        flex-wrap: wrap;
+        gap: 20px;
+        padding-right: 60px;
+    }
 }
 @media (max-width: 1070px) {
     .nav-bar-items a{
@@ -999,6 +1011,9 @@ footer{
     }
     .promotion-container img{
         width: 40rem;
+    }
+    .footer{
+        
     }
 }
 @media (max-width: 530px) {
