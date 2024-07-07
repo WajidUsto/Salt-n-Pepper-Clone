@@ -249,7 +249,7 @@ ul{
     background-color: var(--red);
 }
 .first-frenchise-main2{
-    gap: 4.5rem;
+    gap: 4.5;
     flex-direction: column;
     display: flex;
     margin: 0 auto;
