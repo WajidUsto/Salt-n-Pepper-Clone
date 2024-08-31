@@ -44,9 +44,9 @@ html,body{
 }
 ul{
     display: flex;
+    align-items: center;
     gap: 30px;
     list-style: none;
-    align-items: center;
 }
 .nav-bar-items li{
     text-decoration: none;
@@ -249,7 +249,7 @@ ul{
     background-color: var(--red);
 }
 .first-frenchise-main2{
-    gap: 4.5;
+    gap: 4.5rem;
     flex-direction: column;
     display: flex;
     margin: 0 auto;
@@ -302,7 +302,7 @@ ul{
 }
 .first-franchise-main-side-text-two-a{
     font-weight: 400;
-    font-size: 3.2rem;
+    font-size: 4rem;
     line-height: 2.9rem;
     text-align: center;
     font-family: 'Black Ops One', system-ui;
@@ -586,7 +586,7 @@ ul{
 .social-feed-img img{
     width: 23rem;
     margin: 0 7px;
-    margin-bottom: 20rem;
+    margin-bottom: 15rem;
 }
 .social-feed-img{
     display: flex;
@@ -646,6 +646,7 @@ footer{
     font-size: 1.6rem;
     line-height: 1.9rem;
     color: rgb(255, 255, 255);
+    text-align: left;
 }
 .site-links-top:hover{
     color: var(--red);
@@ -968,6 +969,14 @@ footer{
     #second-frenchise-main-outside .img2{
         width: 28rem;
     }
+    #logo-side{
+        width: 100%;
+    }
+    .footerlinks1{
+        align-items: center;
+        text-decoration: none;
+        flex-direction: column;
+    }
 }
 @media (max-width: 650px) {
     .get-a-frenchise-btn2{
@@ -1015,7 +1024,17 @@ footer{
     .footer{
         flex-direction: column;
         font-size: 16px;
-        text-align: left;
+        text-align: center;
+        padding-right: 0px;
+    }
+    .site-links{
+        width: 100%;
+    }
+    .site-links-2{
+        width: 100%;
+    }
+    .site-links-top{
+        text-align: center;
     }
 }
 @media (max-width: 530px) {
